@@ -28,7 +28,7 @@ background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(
 .bg-dark
 {    
 	background: rgb(1,5,14);
-background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(0,3,8,1) 100%); 
+    background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(0,3,8,1) 100%); 
 	box-shadow: 1px 1px 1px #cccccc;
 }
 
@@ -85,7 +85,7 @@ background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(
 .buttonread
 {
 	background: rgb(1,5,14);
-    background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(0,3,8,1) 100%);
+    background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(0,3,8,1) 100%); 
 	color: #ffffff;
 	border-radius: 50px;
 	font-size: 18px;
@@ -206,10 +206,46 @@ background: linear-gradient(90deg, rgba(133,2,19,1) 0%, rgba(124,3,19,1) 35%, rg
 .foot
 {
  background-color: #ffffff; 
- height: 40px; 
+ height: auto; 
  margin-top:540px;
- background-image: url("../images/164628.jpg"); 
-} 
+ background-image: url("../images/164628.jpg");
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover; 
+}
+label
+{
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;	
+}
+.form-control
+{
+	height: 50px;
+	border-radius:50px;
+}
+.contact
+{
+	background: rgb(85,3,14);
+	background: linear-gradient(90deg, rgba(85,3,14,1) 0%, rgba(124,3,19,1) 35%, rgba(210,6,33,1) 100%);
+	color: #ffffff;
+	border-radius: 50px;
+	font-size: 18px;
+	border-style: none;
+	margin:15px;
+	width: 180px;
+}
+
+.contact:hover
+{
+	background: rgb(1,5,14);
+	background: linear-gradient(90deg, rgba(1,5,14,1) 0%, rgba(4,11,25,1) 35%, rgba(0,3,8,1) 100%); 
+	color: #ffffff;
+	border-radius: 50px;
+	font-size: 18px;
+	border-style: none;
+	margin:15px;
+	width: 180px;
+}		
 /* END PORTFOLIO */
 
 /*media Queries*/
